@@ -1,0 +1,53 @@
+body {
+    padding: 5px;
+    margin: 5px;
+    background-color: orangered;
+    height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#allcontent {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fa6881;
+}
+
+#header {
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+#main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#footer {
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+.textone {
+    text-align: center;
+    border-bottom: 1px solid green;
+}
+
+.content {
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid yellow;
+}
+
+.footcopy {
+    border-top: 1px solid blue;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.lovely {
+    color: red;
+}
